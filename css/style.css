@@ -10,7 +10,7 @@ body {
 
 div.banner {
     width: 100%;
-    background-image: url("/algoritmos-sena/img/computer-code.jpg");
+    background-image: url("https://juandev99.github.io/algoritmos-sena/img/computer-code.jpg");
     background-attachment: fixed;
     text-align: center;
     height: 420px;
