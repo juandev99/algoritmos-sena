@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+div.banner {
+    width: 100%;
+    background-image: url("C:/Users/Juan M/Downloads/Algoritmos Realizados/img/computer-code.jpg");
+    background-attachment: fixed;
+    text-align: center;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.banner div {
+    background-color: #2f1c41;
+    padding: 5%;
+    color: #ffffff;
+    border-radius: 15px;;
+}
+
+div.section-buttons {
+    padding: 5%;
+}
+
+div.section-buttons button {
+    width: 31%;
+    margin: 10px 10px;
+    height: 97px;
+    background-color: #2f1c41;
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+div.section-buttons button:hover {
+    transform: translateY(-5px);
+    transition: .2s;
+}
